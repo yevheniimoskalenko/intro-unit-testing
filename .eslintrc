@@ -2,6 +2,7 @@
   "extends": ["wesbos"],
   "rules": {
     "no-console": "off",
+    "class-methods-use-this": "off",
     "prettier/prettier": [
       "error",
       {
