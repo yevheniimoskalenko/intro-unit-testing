@@ -1,6 +1,6 @@
 const Lodash = require('./sync');
 
-const _ = new Lodash();
+let _ = new Lodash();
 
 describe('Lodash: compact', () => {
    let array;
